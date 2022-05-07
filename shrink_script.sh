@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# Store paths to all existing pdf files in current directory
-#  & sub-directories inside the file "pdf_file_list.txt" 
+# Store paths to all existing (.pdf) files in current directory
+#  & sub-directories into the file "orig_file_paths.txt" 
 find . -name "*.pdf" -fprint "orig_file_paths.txt"
 
-
+# Read the contents of created "orig_file_paths.txt" file
 while read -r line; do
     # Get original file's name & add '_compressed' before '.pdf'
     orig_file_name="$line"
