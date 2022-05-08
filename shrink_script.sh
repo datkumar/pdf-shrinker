@@ -26,4 +26,4 @@ done < "orig_file_paths.txt"
 
 
 rm "orig_file_paths.txt"
-echo "\n------- ALL OPERATIONS SUCCESSFUL -------\n"
+echo "\n------- ALL OPERATIONS DONE. EXITING SCRIPT -------\n"
