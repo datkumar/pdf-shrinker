@@ -1,17 +1,17 @@
 #  PDF-Shrinker 
 
-#### <i>A command-line tool to shrink all <b>PDF</b> files conained inside a folder
+#### <i>A command-line tool to shrink all <b>PDF</b> files contained inside a folder & it's subfolders.
 </i>
 
 ---
 ### NOTE:
-- Intended for <b>Debian-based</b> Linux systems (Debian, Ubuntu, PopOS, Mint, Kali, Elementary etc.)
+- Intended for <b>Debian/Ubuntu based</b> Linux systems (Debian, Ubuntu, PopOS, Mint, Kali, Elementary etc.)
 - It uses the [Ghostscript](https://www.ghostscript.com/doc/current/Readme.htm) driver.
 - It works by converting the PDF file to PostScript and back.
 ---
 ## Instructions:
 
-1. Store your required  (targeted)  <b>.pdf</b> files inside a folder.
+1. Store the <b>.pdf</b> files you want to shrink inside a folder.
 1. Clone the repo and move/copy the [shrink_script.sh](./shrink_script.sh) file into the files folder
 1. Open Terminal in this folder:
     
